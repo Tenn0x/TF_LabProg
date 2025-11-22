@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f6f7fb;
+  color: #1f2937;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #1e2a38;
+  font-weight: 700;
+}
+
+/* Containers */
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Formulário */
+form input {
+  padding: 10px 12px;
+  margin-right: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  width: 230px;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #2563eb;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1e4fcc;
+}
+
+button:active {
+  background: #1a46b7;
+}
+
+/* Mapa */
+.leaflet-container {
+  border-radius: 12px;
+}
+
+/* Histórico */
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul li button {
+  margin-bottom: 8px;
+  background: #374151;
+}
+
+ul li button:hover {
+  background: #111827;
+}
